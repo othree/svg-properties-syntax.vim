@@ -1,0 +1,70 @@
+auto | baseline | before-edge | text-before-edge | middle | central | after-edge | text-after-edge | ideographic | alphabetic | hanging | mathematical | inherit
+baseline | sub | super | <percentage> | <length> | inherit
+<shape> | auto | inherit
+<funciri> | none | inherit
+nonzero | evenodd | inherit
+<color> | inherit
+auto | sRGB | linearRGB | inherit
+auto | sRGB | linearRGB | inherit
+auto | sRGB | <name> | <funciri> | inherit
+auto | optimizeSpeed | optimizeQuality | inherit
+[ [<funciri> ,]* [ auto | crosshair | default | pointer | move | e-resize | ne-resize | nw-resize | n-resize | se-resize | sw-resize | s-resize | w-resize| text | wait | help ] ] | inherit
+ltr | rtl | inherit
+inline | block | list-item | run-in | compact | marker | table | inline-table | table-row-group | table-header-group | table-footer-group | table-row | table-column-group | table-column | table-cell | table-caption | none | inherit
+auto | use-script | no-change | reset-size | ideographic | alphabetic | hanging | mathematical | central | middle | text-after-edge | text-before-edge | inherit
+accumulate | new [ <x> <y> <width> <height> ] | inherit
+<paint> (See Specifying paint)
+<opacity-value> | inherit
+nonzero | evenodd | inherit
+<funciri> | none | inherit
+currentColor |
+<color> [<icccolor>] |
+inherit
+<opacity-value> | inherit
+[ [ ‘font-style’ || ‘font-variant’ || ‘font-weight’ ]? ‘font-size’ [ / 'line-height' ]? ‘font-family’ ] | caption | icon | menu | message-box | small-caption | status-bar | inherit
+[[ <family-name> | <generic-family> ],]* [ <family-name> | <generic-family>] | inherit
+<absolute-size> | <relative-size> | <length> | <percentage> | inherit
+<number> | none | inherit
+normal | wider | narrower | ultra-condensed | extra-condensed | condensed | semi-condensed | semi-expanded | expanded | extra-expanded | ultra-expanded | inherit
+normal | italic | oblique | inherit
+normal | small-caps | inherit
+normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | inherit
+<angle> | inherit
+auto | <angle> | inherit
+auto | optimizeSpeed | optimizeQuality | inherit
+auto | <length> | inherit
+normal | <length> | inherit
+currentColor |
+<color> [<icccolor>] |
+inherit
+see individual properties
+none |
+inherit |
+<funciri>
+<funciri> | none | inherit
+<opacity-value> | inherit
+visible | hidden | scroll | auto | inherit
+visiblePainted | visibleFill | visibleStroke | visible |
+painted | fill | stroke | all | none | inherit
+auto | optimizeSpeed | crispEdges |
+geometricPrecision | inherit
+currentColor |
+<color> [<icccolor>] |
+inherit
+<opacity-value> | inherit
+<paint> (See Specifying paint)
+none | <dasharray> | inherit
+<percentage> | <length> | inherit
+butt | round | square | inherit
+miter | round | bevel | inherit
+<miterlimit> | inherit
+<opacity-value> | inherit
+<percentage> | <length> | inherit
+start | middle | end | inherit
+none | [ underline || overline || line-through || blink ] | inherit
+auto | optimizeSpeed | optimizeLegibility |
+geometricPrecision | inherit
+normal | embed | bidi-override | inherit
+visible | hidden | collapse | inherit
+normal | <length> | inherit
+lr-tb | rl-tb | tb-rl | lr | rl | tb | inherit
