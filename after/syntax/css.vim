@@ -1,5 +1,5 @@
 " Vim syntax file
-" Language:     JavaScript (ECMAScript 2015)
+" Language:     CSS (SVG 1.1)
 " Maintainer:   Kao Wei-Ko(othree) <othree@gmail.com>
 " Last Change:  2016-04-27
 " Version:      1.1
