@@ -6,107 +6,46 @@
 " Changes:      Go to https://github.com/othree/svg-properties-syntax.vim for recent changes.
 " Repository:   https://github.com/othree/svg-properties-syntax.vim
 
-syn match cssFontAttr contained "\<alignment-baseline\>"
-syn match cssFontAttr contained "\<baseline-shift\>"
-syn match cssFontAttr contained "\<clip\>"
-syn match cssFontAttr contained "\<clip-path\>"
-syn match cssFontAttr contained "\<clip-rule\>"
-syn match cssFontAttr contained "\<color\>"
-syn match cssFontAttr contained "\<fill\>"
-syn match cssFontAttr contained "\<stroke\>"
-syn match cssFontAttr contained "\<stop-color\>"
-syn match cssFontAttr contained "\<flood-color\>"
-syn match cssFontAttr contained "\<lighting-color\>"
-syn match cssFontAttr contained "\<color-interpolation\>"
-syn match cssFontAttr contained "\<color-interpolation-filters\>"
-syn match cssFontAttr contained "\<color-profile\>"
-syn match cssFontAttr contained "\<color-rendering\>"
-syn match cssFontAttr contained "\<cursor\>"
-syn match cssFontAttr contained "\<direction\>"
-syn match cssFontAttr contained "\<display\>"
-syn match cssFontAttr contained "\<dominant-baseline\>"
-syn match cssFontAttr contained "\<enable-background\>"
-syn match cssFontAttr contained "\<fill\>"
-syn match cssFontAttr contained "\<fill-opacity\>"
-syn match cssFontAttr contained "\<fill-rule\>"
-syn match cssFontAttr contained "\<filter\>"
-syn match cssFontAttr contained "\<flood-color\>"
-syn match cssFontAttr contained "\<flood-opacity\>"
-syn match cssFontAttr contained "\<font\>"
-syn match cssFontAttr contained "\<font-style\>"
-syn match cssFontAttr contained "\<font-variant\>"
-syn match cssFontAttr contained "\<font-weight\>"
-syn match cssFontAttr contained "\<font-size\>"
-syn match cssFontAttr contained "\<font-family\>"
-syn match cssFontAttr contained "\<font-family\>"
-syn match cssFontAttr contained "\<font-size\>"
-syn match cssFontAttr contained "\<font-size-adjust\>"
-syn match cssFontAttr contained "\<font-stretch\>"
-syn match cssFontAttr contained "\<font-style\>"
-syn match cssFontAttr contained "\<font-variant\>"
-syn match cssFontAttr contained "\<font-weight\>"
-syn match cssFontAttr contained "\<glyph-orientation-horizontal\>"
-syn match cssFontAttr contained "\<glyph-orientation-vertical\>"
-syn match cssFontAttr contained "\<image-rendering\>"
-syn match cssFontAttr contained "\<kerning\>"
-syn match cssFontAttr contained "\<letter-spacing\>"
-syn match cssFontAttr contained "\<lighting-color\>"
-syn match cssFontAttr contained "\<marker\>"
-syn match cssFontAttr contained "\<marker-end\>"
-syn match cssFontAttr contained "\<marker-mid\>"
-syn match cssFontAttr contained "\<marker-start\>"
-syn match cssFontAttr contained "\<mask\>"
-syn match cssFontAttr contained "\<opacity\>"
-syn match cssFontAttr contained "\<overflow\>"
-syn match cssFontAttr contained "\<pointer-events\>"
-syn match cssFontAttr contained "\<shape-rendering\>"
-syn match cssFontAttr contained "\<stop-color\>"
-syn match cssFontAttr contained "\<stop-opacity\>"
-syn match cssFontAttr contained "\<stroke\>"
-syn match cssFontAttr contained "\<stroke-dasharray\>"
-syn match cssFontAttr contained "\<stroke-dashoffset\>"
-syn match cssFontAttr contained "\<stroke-linecap\>"
-syn match cssFontAttr contained "\<stroke-linejoin\>"
-syn match cssFontAttr contained "\<stroke-miterlimit\>"
-syn match cssFontAttr contained "\<stroke-opacity\>"
-syn match cssFontAttr contained "\<stroke-width\>"
-syn match cssFontAttr contained "\<text-anchor\>"
-syn match cssFontAttr contained "\<text-decoration\>"
-syn match cssFontAttr contained "\<text-rendering\>"
-syn match cssFontAttr contained "\<unicode-bidi\>"
-syn match cssFontAttr contained "\<visibility\>"
-syn match cssFontAttr contained "\<word-spacing\>"
-syn match cssFontAttr contained "\<writing-mode\>"
-syn match cssFontAttr contained "\<font\>"
-syn match cssFontAttr contained "\<font-size-adjust\>"
-syn match cssFontAttr contained "\<stroke-dasharray\>"
+setlocal iskeyword+=-
 
-syn match cssFontAttr contained "\<z-index\>"
-syn match cssFontAttr contained "\<paint-order\>"
-syn match cssFontAttr contained "\<vector-effect\>"
-syn match cssFontAttr contained "\<inline-size\>"
-syn match cssFontAttr contained "\<shape-inside\>"
-syn match cssFontAttr contained "\<shape-subtract\>"
-syn match cssFontAttr contained "\<shape-image-threshold\>"
-syn match cssFontAttr contained "\<shape-padding\>"
-syn match cssFontAttr contained "\<shape-margin\>"
-syn match cssFontAttr contained "\<text-overflow\>"
-syn match cssFontAttr contained "\<isolation\>"
-syn match cssFontAttr contained "\<mix-blend-mode\>"
-syn match cssFontAttr contained "\<transform\>"
-syn match cssFontAttr contained "\<transform-origin\>"
-syn match cssFontAttr contained "\<transform-box\>"
-syn match cssFontAttr contained "\<text-align\>"
-syn match cssFontAttr contained "\<text-align-all\>"
-syn match cssFontAttr contained "\<text-align-last\>"
-syn match cssFontAttr contained "\<text-indent\>"
-syn match cssFontAttr contained "\<white-space\>"
-syn match cssFontAttr contained "\<text-space-collapse\>"
-syn match cssFontAttr contained "\<vertical-align\>"
-syn match cssFontAttr contained "\<font-feature-settings\>"
-syn match cssFontAttr contained "\<font-kerning\>"
-syn match cssFontAttr contained "\<font-size-adjust\>"
-syn match cssFontAttr contained "\<font-variant\>"
-syn match cssFontAttr contained "\<text-decoration-fill\>"
-syn match cssFontAttr contained "\<text-decoration-stroke\>"
+syntax keyword cssFontProp contained alignment-baseline baseline-shift clip clip-path clip-rule color
+syntax keyword cssFontProp contained fill stroke stop-color flood-color lighting-color color-interpolation
+syntax keyword cssFontProp contained color-interpolation-filters color-profile color-rendering cursor direction display
+syntax keyword cssFontProp contained dominant-baseline enable-background fill fill-opacity fill-rule filter
+syntax keyword cssFontProp contained flood-color flood-opacity font font-style font-variant font-weight
+syntax keyword cssFontProp contained font-size font-family font-family font-size font-size-adjust font-stretch
+syntax keyword cssFontProp contained font-style font-variant font-weight glyph-orientation-horizontal glyph-orientation-vertical image-rendering
+syntax keyword cssFontProp contained kerning letter-spacing lighting-color marker marker-end marker-mid
+syntax keyword cssFontProp contained marker-start mask opacity overflow pointer-events shape-rendering
+syntax keyword cssFontProp contained stop-color stop-opacity stroke stroke-dasharray stroke-dashoffset stroke-linecap
+syntax keyword cssFontProp contained stroke-linejoin stroke-miterlimit stroke-opacity stroke-width text-anchor text-decoration
+syntax keyword cssFontProp contained text-rendering unicode-bidi visibility word-spacing writing-mode font
+syntax keyword cssFontProp contained font-size-adjust stroke-dasharray z-index paint-order vector-effect
+syntax keyword cssFontProp contained inline-size shape-inside shape-subtract shape-image-threshold shape-padding shape-margin
+syntax keyword cssFontProp contained text-overflow isolation mix-blend-mode transform transform-origin transform-box
+syntax keyword cssFontProp contained text-align text-align-all text-align-last text-indent white-space text-space-collapse
+syntax keyword cssFontProp contained vertical-align font-feature-settings font-kerning font-size-adjust font-variant text-decoration-fill
+syntax keyword cssFontProp contained text-decoration-stroke 
+
+syntax keyword cssFontAttr contained accumulate after-edge all alphabetic auto baseline
+syntax keyword cssFontAttr contained before-edge bevel bidi-override blink block bold
+syntax keyword cssFontAttr contained bolder butt caption central collapse compact
+syntax keyword cssFontAttr contained condensed crispEdges crosshair currentColor default e-resize
+syntax keyword cssFontAttr contained embed end evenodd expanded extra-condensed extra-expanded
+syntax keyword cssFontAttr contained fill geometricPrecision hanging help hidden icon
+syntax keyword cssFontAttr contained ideographic inherit inline inline-table italic lighter
+syntax keyword cssFontAttr contained line-through linearRGB list-item lr lr-tb ltr
+syntax keyword cssFontAttr contained marker mathematical menu message-box middle miter
+syntax keyword cssFontAttr contained move n-resize narrower ne-resize new no-change
+syntax keyword cssFontAttr contained none nonzero normal nw-resize oblique optimizeLegibility
+syntax keyword cssFontAttr contained optimizeQuality optimizeSpeed overline painted pointer reset-size
+syntax keyword cssFontAttr contained rl rl-tb round rtl run-in s-resize
+syntax keyword cssFontAttr contained sRGB scroll se-resize semi-condensed semi-expanded small-caps
+syntax keyword cssFontAttr contained small-caption square start status-bar stroke sub
+syntax keyword cssFontAttr contained super sw-resize table table-caption table-cell table-column
+syntax keyword cssFontAttr contained table-column-group table-footer-group table-header-group table-row table-row-group tb
+syntax keyword cssFontAttr contained tb-rl text text-after-edge text-before-edge ultra-condensed ultra-expanded
+syntax keyword cssFontAttr contained underline use-script visible visibleFill visiblePainted visibleStroke
+syntax keyword cssFontAttr contained w-resize wait wider
+
 
