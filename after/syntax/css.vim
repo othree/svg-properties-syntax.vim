@@ -6,9 +6,6 @@
 " Changes:      Go to https://github.com/othree/svg-properties-syntax.vim for recent changes.
 " Repository:   https://github.com/othree/svg-properties-syntax.vim
 
-
-syn match cssFontAttr contained "\<flow\(-root\)\=\>"
-
 syn match cssFontAttr contained "\<alignment-baseline\>"
 syn match cssFontAttr contained "\<baseline-shift\>"
 syn match cssFontAttr contained "\<clip\>"
