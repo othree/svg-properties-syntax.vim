@@ -2,7 +2,7 @@ svg-properties-syntax.vim
 =========================
 
 SVG property such as `fill`, `blink` can be used in CSS file.
-But hail2u don't these properties should placed in [vim-css3-syntax][].
+But hail2u don't think these properties should placed in [vim-css3-syntax][].
 So I start to build this extension.
 Let CSS file syntax supports svg properties.
 
